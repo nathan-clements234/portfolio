@@ -1,0 +1,58 @@
+@font-face {
+	font-family: "uppercase";
+	src: url("../fonts/upper.otf");
+}
+
+* {
+	box-sizing: border-box;
+}
+header {
+background: center fixed no-repeat url("../img/background-3.jpg");
+	background-size: cover;
+	height: 98vh;
+	text-align: center;
+	padding-top: 30px;
+
+}
+h1, h3{
+	color: black;
+	font-family: "uppercase", serif;
+	font-weight: bold;
+	font-size: 50px;
+}
+body{
+		background-color: #808d8e;
+}
+.container{
+	padding: 50px 0;
+
+}
+.img-child {
+width: 50%;
+height: auto;
+float: left;
+margin: 0 20px 20px 0;
+
+}
+
+.button {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	margin: 0 5% 10px 0;
+	padding-top: 95px;
+	text-align: center;
+	background-color: skyblue;
+	color: white;
+	border-radius: 50%;
+	transition: all .33s ease;
+}
+
+.button:hover {
+	background-color: darkorange;
+	color: white;
+	text-decoration: none;
+}
+p{
+	font-weight: bold;
+}
